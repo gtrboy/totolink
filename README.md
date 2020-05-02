@@ -4,7 +4,7 @@ Affected products: including but not limited to [TOTOLINK A950RG](http://totolin
 Affected firmwares: [A950RG V5.9c.4216_B20190710](http://totolink.net/data/upload/20190823/f073768d48ed43bf890c5cb7193e0538.zip) and [T10 V5.9c.4096_B20190509](http://totolink.net/data/upload/20191107/4098b1a2d522b051e3bbf29a051c2122.zip)  
 ![image](./images/A950RG_product.png)  
 ![image](./images/T10_product.png)  
-## Vulnerabilities description
+## Vulnerabilities Description  
 An attacker can execute arbitrary Linux OS commands via "setNTPCfg", "NTPSyncWithHost" and "setDiagnosisCfg" POST requests after login.   
 ### Modules Load  
 /bin/cste_sub: load_modules() function loads all libraries located in directory /lib/cste_modules:  
